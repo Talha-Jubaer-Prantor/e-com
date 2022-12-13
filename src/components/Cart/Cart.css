@@ -1,0 +1,28 @@
+.cart-container{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+
+.cart-expenses{
+    margin: 15px;
+}
+
+@media only screen and (max-width: 760px){
+    
+    .cart-container{
+        background-color: blueviolet;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+}

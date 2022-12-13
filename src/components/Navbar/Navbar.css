@@ -1,0 +1,13 @@
+.nav-search{
+    display: flex;
+    background-color: white;
+    margin-left: 27%;
+}
+
+@media only screen and (max-width: 991px){
+    .nav-search{
+        display: flex;
+        background-color: white;
+        margin-left: 0%;
+    }
+}
