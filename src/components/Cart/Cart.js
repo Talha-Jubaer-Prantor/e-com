@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Cart.css"
 import OtherNavbar from "../Navbar/OtherNavbar";
 
