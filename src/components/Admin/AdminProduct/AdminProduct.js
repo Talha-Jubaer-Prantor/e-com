@@ -1,12 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
-import "./Home.css"
+import AdminNav from '../AdminNav/AdminNav';
+import "./AdminProduct.css"
 
-const Home = () => {
-
-
+const AdminHome = () => {
     const products=[
         {
             "name":"product-1",
@@ -28,40 +25,44 @@ const Home = () => {
             "price":20,
             "vendor":"vendor-4",
             "img":"https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        },{
+            "name":"product-4",
+            "price":20,
+            "vendor":"vendor-4",
+            "img":"https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         }
     ]
-
-
-
     return (
-        <div>
-            <Navbar></Navbar>
+        <div style={{backgroundColor:"blueviolet",minHeight:"100vh"}}>
+            <AdminNav></AdminNav>
+            
+            <div style={{paddingTop:"30px"}} className='products'>
 
-            <div className='home'>
-
-                <div className='product-container container'>
+            <div className='admin-product-box-container'>
                 {
                     products.map(product=>  
-                    <Link to='/productdetails'  className='product-box' state={product} key={product.img} >
+                    <div className='admin-product-box'  key={product.img} >
                         <div style={{padding:"8px"}}><img style={{height:"200px",width:"200px",borderRadius:"15px"}} src={product.img} alt=""/></div>
                         <div style={{padding:"12px"}}>
                             {product.name} <br />
                             Price: {product.price} BDT<br />
                             Supplier: {product.vendor}
                         </div>
-                    </Link>)
+                        <button type="button" class="btn btn-info">Edit</button>
+                        <button type="button" class="btn btn-danger">Stock Out</button>
+                    </div>)
                 }
-                </div>
-
+            </div>
 
 
 
             </div>
 
 
-            <Footer></Footer>
+
+
         </div>
     );
 };
 
-export default Home;
+export default AdminHome;

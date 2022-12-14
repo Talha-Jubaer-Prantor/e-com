@@ -1,0 +1,13 @@
+.admin-product-box-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.admin-product-box{
+
+    width: 220px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    margin-left: 10%;
+
+}

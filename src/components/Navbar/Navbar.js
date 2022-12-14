@@ -32,7 +32,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   style={{ color: "white" }}
-                  className="nav-link active"
+                  className="nav-link "
                   aria-current="page"
                   to="/"
                 >
@@ -42,7 +42,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   style={{ color: "white" }}
-                  className="nav-link active"
+                  className="nav-link "
                   aria-current="page"
                   to="/cart"
                 >
