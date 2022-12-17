@@ -8,8 +8,19 @@ const About = () => {
             <OtherNavbar></OtherNavbar>
             <div className='about-container'>
 
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo iste repellat eos facere ut cum repudiandae delectus quibusdam debitis in, ratione totam, fugit a aperiam amet exercitationem, corporis tempore est?
+                <ol style={{color:"white"}}>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo unde illum vel, omnis voluptatum soluta velit dignissimos quis neque eius rem iste ipsum excepturi quam eligendi debitis expedita nostrum?
+                    </li><br />
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo unde illum vel, omnis voluptatum soluta velit dignissimos quis neque eius rem iste ipsum excepturi quam eligendi debitis expedita nostrum?
+                    </li><br />
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo unde illum vel, omnis voluptatum soluta velit dignissimos quis neque eius rem iste ipsum excepturi quam eligendi debitis expedita nostrum?
+                    </li><br />
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo unde illum vel, omnis voluptatum soluta velit dignissimos quis neque eius rem iste ipsum excepturi quam eligendi debitis expedita nostrum?
+                    </li>
+                </ol>
 
+
+                
             </div>
         </div>
     );

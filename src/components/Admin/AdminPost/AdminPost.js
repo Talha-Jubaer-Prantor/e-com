@@ -45,6 +45,17 @@ const AdminPost = () => {
             <br /> <input type="text" name="file" id="" alt="" />
             <br />
             <br />
+            Category:
+            <br />
+            <select name="" id="">
+              <option value="">Select a Category</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+            <br />
+            <br />
+            <br />
             Description: <br />{" "}
             <textarea name="description" id="" cols="30" rows="5"></textarea>
             <br />

@@ -47,8 +47,9 @@ const AdminHome = () => {
                             Price: {product.price} BDT<br />
                             Supplier: {product.vendor}
                         </div>
-                        <button type="button" class="btn btn-info">Edit</button>
-                        <button type="button" class="btn btn-danger">Stock Out</button>
+                        <button type="button" class="btn btn-warning">Edit</button>
+                        <button type="button" class="btn btn-secondary">Stock Out</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
                     </div>)
                 }
             </div>

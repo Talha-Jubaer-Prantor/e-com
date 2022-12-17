@@ -5,6 +5,12 @@
    
 }
 
+.signup-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
 @media only screen and (max-width: 510px){
     .signup-box{
         margin-left: 0%;

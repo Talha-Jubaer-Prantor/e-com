@@ -11,7 +11,12 @@ const ProductDet = () => {
         <div>
             <OtherNavbar></OtherNavbar>
 
-            <div style={{backgroundColor:"blueviolet"}} >
+            <div style={{backgroundColor:"blueviolet"}}>
+
+                <div className='container'>
+                <h1><a href="/"  style={{color:"white",textDecoration:"none"}}> Vendor </a></h1>
+                </div>
+                
                 <div className='productdet-container container text-white'>
                     <div>
                         <img style={{width:"100%",padding:"15px"}} src={item.img} alt="" />
