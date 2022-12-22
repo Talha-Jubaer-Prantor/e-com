@@ -14,7 +14,7 @@ const Navbar = () => {
           style={{ backgroundColor: "blueviolet", borderRadius: "10px" }}
         >
           <Link style={{ color: "white" }} className="navbar-brand" to="/">
-            Navbar
+            Name
           </Link>
           <button
             className="navbar-toggler"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link style={{ color: "white" }} className="nav-link" to="/">
+                <Link style={{ color: "white" }} className="nav-link" to="/other">
                   Others
                 </Link>
               </li>

@@ -1,0 +1,17 @@
+.vendor{
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.vendor-health{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.vendor-health-content{
+    margin:5px;
+    border-radius:5px;
+    background-color:cadetblue;
+    margin-bottom: 20px;
+    text-align: center;
+}
